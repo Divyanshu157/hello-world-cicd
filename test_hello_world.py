@@ -8,7 +8,7 @@ class TestHelloWorld(unittest.TestCase):
     
 class TestByeWorld(unittest.TestCase):
     def test_bye_world(self):
-        self.assertEqual(bye_world,"Bye,World!")
+        self.assertEqual(bye_world(),"Bye,World!")
 
 if __name__ == '__main__':
     unittest.main()
